@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+ 
+    <node pkg="final_assignment" type="random_point_server" name="random_point_server"/>
+    <node pkg="assignment1" type="holo_robot" name="holo_robot" output="screen" />	
+
+</launch>
