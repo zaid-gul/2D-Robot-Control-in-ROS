@@ -1,13 +1,13 @@
 # 2D Robot Control in ROS
 Controlling a holonomic robot in a 2d space with a simple 2d simulator, StageROS. 
-![alt text](https://github.com/zaid-gul/2D-Robot-Control-in-ROS/blob/main/Simulator.jpg?raw=true)
+![alt text](https://github.com/zaid-gul/2D-Robot-Control-in-ROS/blob/master/Simulator.jpg?raw=true)
 ## Overview
 1. The robot asks for a random target, with both coordinates in the interval (-6.0, 6.0).
 2. The robot reaches the target.
 3. Go to step 1.
 
 ## Computational Graph
-![alt text](https://github.com/zaid-gul/2D-Robot-Control-in-ROS/blob/main/rosgraph.png?raw=true)
+![alt text](https://github.com/zaid-gul/2D-Robot-Control-in-ROS/blob/master/rosgraph.png?raw=true)
 
 ## Contents of the Package
 - **random_point_server.cpp:** Node used for generating random coordinates in the interval (-6.0, 6.0)
